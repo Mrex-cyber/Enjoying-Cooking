@@ -1,0 +1,24 @@
+button{
+  background-color: blueviolet;
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+  border: 3px solid greenyellow;
+  margin: 0 2.5%;
+}
+
+nav{
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  width: 20%;
+  background-color: blue;
+  color: yellow;
+  border: 2px solid gray;
+  text-align: center;
+  padding: 5px 0px;
+}

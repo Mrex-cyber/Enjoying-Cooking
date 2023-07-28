@@ -1,0 +1,19 @@
+img{
+  width: 95%;
+  border: 1px solid black;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 2.5%;
+}
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.item {
+  width: 20%;
+  border: 3px dashed black;
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+<h2 *ngIf="!isRegirtrated">Registration</h2>
+
+<div *ngIf="!isRegirtrated">
+  <input type="text" placeholder="Username" #userNameInput />
+  <input placeholder="Email" #emailInput>
+  <input placeholder="Password" #passwordInput>
+  <button (click)="signUp(userNameInput.value, emailInput.value, passwordInput.value)">Submit</button>
+  <button (click)="changeState()">Sign in</button>
+</div>
+
+<h2 *ngIf="isRegirtrated">Authorization</h2>
+<div *ngIf="isRegirtrated">
+  <input placeholder="Email" #emailInput>
+  <input placeholder="Password" #passwordInput>
+  <button (click)="signIn(emailInput.value, passwordInput.value)">Submit</button>
+  <button (click)="changeState()">Sign up</button>
+</div>
+<button (click)="logOut()">Log out</button>

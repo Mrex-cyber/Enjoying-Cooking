@@ -1,0 +1,21 @@
+details{
+  width: 85%;
+  margin: 1px;
+}
+
+details > div {
+  padding: 5px;
+  border: 2px solid blueviolet;
+}
+details > summary {
+  padding: 5px;
+  color: blueviolet;
+  background-color: yellow;
+  border: 2px solid gray;
+  font-size: x-large;
+}
+details[open] > summary {
+  color: yellow;
+  background-color: blueviolet;
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+input{
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5px;
+}
+div{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  align-items: center;
+}
+
+button{
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 15px;
+}
+
+h2 {
+  text-align: center;
+}
